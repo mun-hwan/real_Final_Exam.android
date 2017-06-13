@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/introLayout"
+    android:layout_width="408dp"
+    android:layout_height="535dp"
+    android:gravity="center"
+    android:fitsSystemWindows="true"
+    tools:layout_editor_absoluteX="-23dp"
+    tools:layout_editor_absoluteY="-9dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ImageView
+        android:id="@+id/img01"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:adjustViewBounds="true"
+        android:background="@drawable/android1.gif"
+        android:contentDescription="@string/app_name"
+        android:scaleType="centerInside"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        />
+
+
+
+</RelativeLayout>
+
+
